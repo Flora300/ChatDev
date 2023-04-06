@@ -1,0 +1,11 @@
+use D:\Ais\sample_app
+createFile run_hello.bat
+editFile run_hello.bat
+@echo off
+python hello.py
+pause
+saveFile
+createFile hello.py
+editFile hello.py
+print("Hello, World!")
+saveFile
